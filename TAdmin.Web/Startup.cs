@@ -80,7 +80,7 @@ namespace TAdmin
             app.UseRouting();
 
             // add http for Schema at default url /graphql
-            app.UseGraphQL<ISchema>();
+            app.UseGraphQL<AdminSchema>();
 
             // use graphql-playground at default url /ui/playground
             app.UseGraphQLPlayground();
