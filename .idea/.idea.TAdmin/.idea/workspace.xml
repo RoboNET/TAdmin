@@ -62,23 +62,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TAdmin.Web/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TAdmin.Web/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TAdmin.Web/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TAdmin.DataSource.Mssql/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TAdmin.Web/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TAdmin.Web/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TAdmin.Web/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TAdmin.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TAdmin.Web/GraphQL/Query.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TAdmin.Logic/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TAdmin.Web/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/TAdmin.DataStore.Mssql/Class1.cs" />
-      <option value="$PROJECT_DIR$/TAdmin.DataSource.Mssql/TAdmin.DataSource.Mssql.csproj" />
-      <option value="$PROJECT_DIR$/TAdmin.DataSource.Mssql/Class1.cs" />
-      <option value="$PROJECT_DIR$/TAdmin.Web/Controllers/WeatherForecastController.cs" />
-      <option value="$PROJECT_DIR$/TAdmin.Web/Controllers/DataSourceController.cs" />
-      <option value="$PROJECT_DIR$/TAdmin.Core/IDataSource.cs" />
-      <option value="$PROJECT_DIR$/TAdmin.Web/Startup.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TAdmin.Web/GraphQL/Query.cs" />
+        <option value="$PROJECT_DIR$/TAdmin.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/TAdmin.Core/TAdmin.Core.csproj" />
+        <option value="$PROJECT_DIR$/TAdmin.DataSource.Mssql/TAdmin.DataSource.Mssql.csproj" />
+        <option value="$PROJECT_DIR$/TAdmin.Logic/TAdmin.Logic.csproj" />
+        <option value="$PROJECT_DIR$/TAdmin.Web/TAdmin.Web.csproj" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1i30mFOfcduYrtBmKw5SgTFDVSM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -143,6 +146,7 @@
       <workItem from="1601121129305" duration="625000" />
       <workItem from="1601121930798" duration="3623000" />
       <workItem from="1601188547690" duration="4591000" />
+      <workItem from="1601462465355" duration="2165000" />
     </task>
     <servers />
   </component>
@@ -270,7 +274,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TAdmin.Web/Controllers/WeatherForecastController.cs</url>
           <line>21</line>
-          <properties documentPath="C:\Projects\TAdmin\TAdmin.Web\Controllers\WeatherForecastController.cs" initialLine="21" containingFunctionPresentation="constructor 'WeatherForecastController'">
+          <properties documentPath="C:\Projects\TAdmin\TAdmin.Web\Controllers\WeatherForecastController.cs" initialLine="21">
             <startOffsets>
               <option value="649" />
             </startOffsets>
