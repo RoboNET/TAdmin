@@ -4,7 +4,7 @@ import { NavMenu } from './NavMenu';
 
 export const Layout = ({children, databases}) => {
   return (
-    <Container>
+    <Container className={"base-margin"}>
       <Row>
         <Col xs="3">
           <NavMenu databases={databases} />
