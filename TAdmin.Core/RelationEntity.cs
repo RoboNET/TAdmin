@@ -2,9 +2,8 @@
 
 namespace TAdmin.Core
 {
-    public class RelationEntity
+    public class RowEntity
     {
-        public string Id { get; set; }
-        public List<Field> Fields { get; set; }
+        public List<Field> Columns { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace TAdmin.DataSource.Mock
     public class MockTable : RelationTable
     {
         public List<RelationFieldMetadata> RelationFieldMetadatas = new List<RelationFieldMetadata>();
-        public List<RelationEntity> RelationEntities = new List<RelationEntity>();
+        public List<RowEntity> RelationEntities = new List<RowEntity>();
 
 
         public override async Task<List<RelationFieldMetadata>> GetMetadata()
@@ -15,7 +15,7 @@ namespace TAdmin.DataSource.Mock
             return RelationFieldMetadatas;
         }
 
-        public override async Task<List<RelationEntity>> GetEntityData(int count, int skip)
+        public override async Task<List<RowEntity>> GetEntityData(int count, int skip)
         {
             return RelationEntities;
         }

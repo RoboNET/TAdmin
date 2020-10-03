@@ -149,7 +149,13 @@
           <e p="Test.cs" t="Include" />
         </e>
         <e p="GraphQL" t="Include">
-          <e p="Query.cs" t="Include" />
+          <e p="AdminMutation.cs" t="Include" />
+          <e p="AdminQuery.cs" t="Include" />
+          <e p="AdminSchema.cs" t="Include" />
+          <e p="DatabaseType.cs" t="Include" />
+          <e p="RelationFieldMetadataType.cs" t="Include" />
+          <e p="RelationTableType.cs" t="Include" />
+          <e p="TableInterface.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

@@ -7,6 +7,6 @@ namespace TAdmin.Core
     {
         public abstract Task<List<RelationFieldMetadata>> GetMetadata();
 
-        public abstract Task<List<RelationEntity>> GetEntityData(int count, int skip);
+        public abstract Task<List<RowEntity>> GetEntityData(int count, int skip);
     }
 }
