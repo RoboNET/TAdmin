@@ -1,21 +1,15 @@
-using System;
-using GraphQL;
-using GraphQL.DataLoader;
 using GraphQL.Server;
-using GraphQL.Types;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using TAdmin.DataSource.Mssql;
-using TAdmin.GraphQL;
 using TAdmin.Logic;
+using TAdmin.Web.GraphQL;
 
-namespace TAdmin
+namespace TAdmin.Web
 {
     public class Startup
     {
@@ -30,7 +24,7 @@ namespace TAdmin
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IDatabaseManager, DatabaseManager>();
-            
+
             services
                 .AddSingleton<AdminSchema>()
                 .AddGraphQL((options, provider) =>

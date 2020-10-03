@@ -7,7 +7,11 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TAdmin.Core\TAdmin.Core.csproj" />
-      <ProjectReference Include="..\TAdmin.DataSource.Mssql\TAdmin.DataSource.Mssql.csproj" />
+      <ProjectReference Include="..\TAdmin.DataSource.Mock\TAdmin.DataSource.Mock.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.8" />
     </ItemGroup>
 
 </Project>

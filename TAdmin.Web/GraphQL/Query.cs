@@ -1,12 +1,10 @@
 ﻿using System;
-using GraphQL;
 using GraphQL.Types;
 using GraphQL.Utilities;
 using TAdmin.Core;
-using TAdmin.DataSource.Mssql;
 using TAdmin.Logic;
 
-namespace TAdmin.GraphQL
+namespace TAdmin.Web.GraphQL
 {
     public class DatabaseType : ObjectGraphType<Database>
     {
@@ -62,7 +60,7 @@ namespace TAdmin.GraphQL
         {
             Name = "Query";
 
-            Field<ListGraphType<DatabaseType>>("databases", resolve: context => databaseManager.GetDatabases());
+            Field<ListGraphType<DatabaseType>>("databases", resolve: context => databaseManager.GetDatabases(null));
         }
     }
 
