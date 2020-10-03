@@ -9,7 +9,7 @@ namespace TAdmin.Core
         public string Name { get; set; }
         public abstract DatabaseType Type { get; }
 
-        public abstract Task<List<Table>> GetTables();
+        public abstract Task<List<Table>> GetTables(string name);
 
         public abstract Task Setup(IConfigurationSection configuration);
     }

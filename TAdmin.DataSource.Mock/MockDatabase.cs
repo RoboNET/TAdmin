@@ -12,7 +12,7 @@ namespace TAdmin.DataSource.Mock
 
         private List<Table> _tables = new List<Table>();
 
-        public override async Task<List<Table>> GetTables()
+        public override async Task<List<Table>> GetTables(string name)
         {
             return _tables;
         }
@@ -27,9 +27,9 @@ namespace TAdmin.DataSource.Mock
                     Name = configTable.Key,
                     RelationEntities = configTable.Value.Values.Select(metadataConfig =>
                     {
-                        return new RelationEntity()
+                        return new RowEntity()
                         {
-                            Fields = metadataConfig.Select(pair => new Field()
+                            Columns = metadataConfig.Select(pair => new Field()
                             {
                                 Name = pair.Key,
                                 Value = pair.Value
