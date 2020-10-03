@@ -5,4 +5,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TAdmin.Core\TAdmin.Core.csproj" />
+      <ProjectReference Include="..\TAdmin.DataSource.Mssql\TAdmin.DataSource.Mssql.csproj" />
+    </ItemGroup>
+
 </Project>

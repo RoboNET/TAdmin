@@ -11,9 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using TAdmin.Controllers;
 using TAdmin.DataSource.Mssql;
 using TAdmin.GraphQL;
+using TAdmin.Logic;
 
 namespace TAdmin
 {
@@ -29,12 +29,8 @@ namespace TAdmin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews().AddJsonOptions(options =>
-            {
-                options.JsonSerializerOptions.Converters.Add(new TableConverter());
-                options.JsonSerializerOptions.Converters.Add(new FieldMetadataConverter());
-            });
-
+            services.AddSingleton<IDatabaseManager, DatabaseManager>();
+            
             services
                 .AddSingleton<AdminSchema>()
                 .AddGraphQL((options, provider) =>
@@ -52,11 +48,8 @@ namespace TAdmin
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/build"; });
-            
+
             services.AddHttpContextAccessor();
-
-            
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,13 +77,13 @@ namespace TAdmin
 
             // use graphql-playground at default url /ui/playground
             app.UseGraphQLPlayground();
-            
-            
+
+
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller}/{action=Index}/{id?}");
+                // endpoints.MapControllerRoute(
+                //     name: "default",
+                //     pattern: "{controller}/{action=Index}/{id?}");
             });
 
             app.UseSpa(spa =>
