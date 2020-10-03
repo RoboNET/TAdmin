@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.Core", "TAdmin.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.Logic", "TAdmin.Logic\TAdmin.Logic.csproj", "{21CB2CC3-37E6-420D-AD34-BBCF169B94F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.DataSource.Mssql", "TAdmin.DataSource.Mssql\TAdmin.DataSource.Mssql.csproj", "{87A74858-9211-44FD-80BB-E9DE2284B051}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.DataSource.Mock", "TAdmin.DataSource.Mock\TAdmin.DataSource.Mock.csproj", "{87A74858-9211-44FD-80BB-E9DE2284B051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

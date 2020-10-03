@@ -6,7 +6,6 @@ namespace TAdmin.Logic
 {
     public interface IDatabaseManager
     {
-        Task<List<Database>> GetDatabases();
-        Task<Database> GetDatabase(string name);
+        Task<List<Database>> GetDatabases(string name);
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace TAdmin.DataSource.Mssql
+﻿namespace TAdmin.DataSource.Mock
 {
     public class GraphQlSettings
     {

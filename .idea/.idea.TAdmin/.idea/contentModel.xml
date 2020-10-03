@@ -22,20 +22,20 @@
         <e p="Table.cs" t="Include" />
         <e p="TAdmin.Core.csproj" t="IncludeRecursive" />
       </e>
-      <e p="TAdmin.DataSource.Mssql" t="IncludeRecursive">
+      <e p="TAdmin.DataSource.Mock" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="GraphQLSettings.cs" t="Include" />
-        <e p="MsSqlDatabase.cs" t="Include" />
-        <e p="MsSqlFieldMetadata.cs" t="Include" />
-        <e p="MsSqlTable.cs" t="Include" />
+        <e p="MockDatabase.cs" t="Include" />
+        <e p="MockFieldMetadata.cs" t="Include" />
+        <e p="MockTable.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="TAdmin.DataSource.Mssql.AssemblyInfo.cs" t="Include" />
+              <e p="TAdmin.DataSource.Mock.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="TAdmin.DataSource.Mssql.csproj" t="IncludeRecursive" />
+        <e p="TAdmin.DataSource.Mock.csproj" t="IncludeRecursive" />
       </e>
       <e p="TAdmin.Logic" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -131,11 +131,8 @@
           </e>
           <e p="README.md" t="Include" />
           <e p="src" t="Include">
-            <e p="App.test.js" t="Include" />
             <e p="App.tsx" t="Include" />
             <e p="components" t="Include">
-              <e p="Counter.js" t="Include" />
-              <e p="FetchData.js" t="Include" />
               <e p="Home.js" t="Include" />
               <e p="Layout.js" t="Include" />
               <e p="NavMenu.css" t="Include" />
