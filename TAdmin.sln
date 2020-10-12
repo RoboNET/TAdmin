@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.Logic", "TAdmin.Logi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.DataSource.Mock", "TAdmin.DataSource.Mock\TAdmin.DataSource.Mock.csproj", "{87A74858-9211-44FD-80BB-E9DE2284B051}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAdmin.DataSource.Mssql", "TAdmin.DataSource.Mssql\TAdmin.DataSource.Mssql.csproj", "{D704E42C-CE98-41C7-BA7A-E232F5FE3988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{87A74858-9211-44FD-80BB-E9DE2284B051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87A74858-9211-44FD-80BB-E9DE2284B051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87A74858-9211-44FD-80BB-E9DE2284B051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D704E42C-CE98-41C7-BA7A-E232F5FE3988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D704E42C-CE98-41C7-BA7A-E232F5FE3988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D704E42C-CE98-41C7-BA7A-E232F5FE3988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D704E42C-CE98-41C7-BA7A-E232F5FE3988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
